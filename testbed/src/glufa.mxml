@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml">  
+ 
+ 	<mx:Script>
+ 	
+ 	import com.pixelboob.glufa.GlufaController;
+ 	
+ 	var glufaController : GlufaController = new GlufaController();
+ 	
+ 	
+ 	</mx:Script>
+	<mx:HBox borderStyle="solid">
+		<mx:Button label="Load" click="glufaController.selectLuac()" />
+		<mx:Button label="Run" click="glufaController.run()" />
+		<mx:Button label="Run and Pause" click="glufaController.run(true)" />
+		<mx:Button label="Step" click="glufaController.step()" />
+		<mx:Button label="Continue" click="glufaController.cont()" />
+		<mx:Button label="Pause" click="glufaController.pause()" />
+	</mx:HBox>
+</mx:WindowedApplication>

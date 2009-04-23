@@ -1,0 +1,17 @@
+<application  xmlns="http://ns.adobe.com/air/application/1.5">
+	<id>com.pixelboob.glufa</id>
+	<filename>gLufa</filename>  
+    <name>gLufa</name>
+    <version>0.1</version>
+    <description></description>
+     <!-- The window into which the root content file will be loaded. -->
+    <initialWindow>
+        <title>gLufa: Lufa Testbed</title>   
+        <content>glufa.swf</content>
+        <visible>true</visible>
+        <minimizable>true</minimizable>
+        <maximizable>true</maximizable>
+        <resizable>true</resizable>  
+    </initialWindow> 
+
+</application>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <project name="lufa" basedir=".">
-	<property name="FLEX_HOME" value="/Applications/eclipse/plugins/com.powerflasher.fdt.shippedflex_3.2.0.3958_0001/flex"/>
-    <taskdef resource="flexTasks.tasks"
-        classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
+
+	<property file="build.properties" />
+    <taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
     
     <target name="compile">
         <mxmlc file="test/LufaTest.as" keep-generated-actionscript="false" debug="true" output="build/output.swf">

@@ -5,8 +5,7 @@ MAKE = make
 all: $(TESTSCRIPTS)
 	
 clean: 
-	rm -rf luac
+	rm -f luac/*
 
 $(TESTSCRIPTS): %.luac: %.lua
-	mkdir -p luac
 	$(LUAC) -o luac/$@ $<  

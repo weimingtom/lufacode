@@ -1,0 +1,1 @@
+local x,y = 5,2; if x ~= y then return "test passed" else return "test failed" end

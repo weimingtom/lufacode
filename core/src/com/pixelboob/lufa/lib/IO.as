@@ -1,0 +1,1 @@
+package com.pixelboob.lufa.lib{	/**	 * @author mikej	 */	 	[LufaClass(className="io")]	public class IO 	{		[LufaMethod(methodName="write")]		public static function write(args:Array):void		{			trace(args.join(","));		}	}}

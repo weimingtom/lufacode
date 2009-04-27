@@ -15,6 +15,7 @@
 			</compiler.include-libraries>
 
 			<keep-as3-metadata name="LufaClass" />
+			<keep-as3-metadata name="LufaMethod" />
 		</mxmlc>
 	</target>
 	

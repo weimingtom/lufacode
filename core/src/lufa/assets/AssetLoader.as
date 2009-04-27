@@ -1,1 +1,0 @@
-package lufa.assets {	/**	 * @author mikej	 */	[LufaClass(name="loader", type="implicit")]	public class AssetLoader 	{		public function loadAsset(filename : String) : void 		{			trace("Load "+filename);		}	}}

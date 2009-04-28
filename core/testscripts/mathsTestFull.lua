@@ -1,0 +1,83 @@
+io.write("***PI***")
+io.write(math.pi)
+
+io.write("***ABS***")
+io.write(math.abs(-100))
+io.write(math.abs(25.67))
+io.write(math.abs(0))
+
+io.write("***ACOS ASIN***")
+io.write(math.acos(1))
+io.write(math.acos(0))
+io.write(math.asin(0))
+io.write(math.asin(1))
+
+io.write("***FLOOR CEIL***")
+io.write(math.floor(0.5))
+io.write(math.ceil(0.5))
+
+io.write("***SIN COS TAN***")
+io.write(math.cos(math.pi / 4))
+io.write(math.sin(0.123))
+io.write(math.tan(5/4))
+io.write(math.tan(.77))
+
+io.write("***SINH***")
+io.write(math.sinh(1))
+
+io.write("***DEG RAD***")
+io.write(math.deg(math.pi))
+io.write(math.deg(math.pi / 2))
+io.write(math.rad(180))
+io.write(math.rad(1))
+
+io.write("***EXP LOG***")
+io.write(math.exp(0))
+io.write(math.exp(1))
+io.write(math.exp(27))
+io.write(math.log(532048240601))
+io.write(math.log(3))
+
+io.write("***LOG10***")
+io.write(math.log10(100))
+io.write(math.log10(256))
+io.write(math.log10(-1))
+
+io.write("***POW***")
+io.write(math.pow(100,0))
+io.write(math.pow(7,2))
+io.write(math.pow(2,8))
+io.write(math.pow(3,2.7))
+io.write(5 ^ 2)
+io.write(2^8)
+
+io.write("***MIN MAX***")
+io.write(math.min(1,2))
+io.write(math.min(1.2, 7, 3))
+io.write(math.min(1.2, -7, 3))
+io.write(math.max(1.2, 7, 3))
+
+io.write("***MODF***")
+io.write(math.modf(5))
+io.write(math.modf(5.3))
+
+io.write("***SQRT***")
+io.write(math.sqrt(100))
+io.write(math.sqrt(1234))
+io.write(math.sqrt(-7))
+
+io.write("***RANDOM***")
+io.write(math.random())
+io.write(math.random())
+io.write(math.random())
+
+io.write("***FREXP LDEXP***")
+io.write(math.frexp(2))
+io.write(math.frexp(3))
+io.write(math.frexp(128))
+io.write(math.frexp(3.1415927))
+io.write(math.ldexp(0.785,2))
+io.write(math.ldexp(0.5,8))
+
+io.write("***HUGE***")
+io.write(math.huge)

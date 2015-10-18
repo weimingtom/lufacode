@@ -1,0 +1,1 @@
+Lufa is an open-source Lua interpreter for AS3, that works in Flash Player 9 and 10 without the need for Alchemy. It has support for a large proportion of the Lufa specification, including metatables and operator overloading, while also integrating nicely with the Flash VM (the interpreter can be tuned to whichever speed is best suited for the application).
